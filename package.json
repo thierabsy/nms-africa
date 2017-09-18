@@ -1,0 +1,63 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "NODE_ENV webpack",
+    // "dev": "NODE_ENV webpack-dev-server --hot",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+// PACKAGES INSTALLATION 
+
+// webpack
+
+/*
+**  Next JS
+**
+** babel-loader babel-core babel-presets
+** babel-plugin-syntax-dynamic-import       **lazy loading import
+*/
+
+/*
+**  Minification 
+**
+** uglifyjs-webpack-plugin
+*/
+
+/*
+**  CSS 
+** css-loader style-loader
+*/
+
+/*
+**  SASS 
+** sass-loader node-sass
+*/
+
+/*
+**  AUTOPREFIXER 
+** postcss-loader autoprefixer
+*/
+
+/*
+**  EXTRACT CSS FROM JS 
+** extract-text-webpack-plugin
+*/
+
+/*
+**  BROWSER-SYNC 
+** browser-sync-webpack-plugin browser-sync
+*/
+
+/*
+**  DEV SERVER 
+** webpack-dev-server
+*/
